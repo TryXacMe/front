@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.container {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 50px   ;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+.box:nth-child(1) {
+    overflow: visible;
+    background-color: aqua;
+}
+
+.box:nth-child(2) {
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+
+.box:nth-child(3) {
+    overflow-y: scroll;
+    background-color: salmon;
+}
+
+.box:nth-child(4) {
+    overflow: auto;
+    background-color: skyblue;
+}
+
+.box1 {
+    overflow: hidden;
+    background-color: red;
+}
+
+.box1:hover {
+    background-color: blue;
+}
+
+.box2 {
+    overflow: hidden;
+    background-color: red;
+}
+
+.box2:active {
+    background-color: blue;
+}
